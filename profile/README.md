@@ -1,65 +1,73 @@
-# Exam OS
+<div align="center">
 
-A reusable, source-grounded exam-preparation toolkit built from a practical university study workflow.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:2563eb&height=190&section=header&text=Charan%20Yeragera&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Science%20%7C%20AI%20Agents%20%7C%20Building%20in%20Public&descAlignY=60&descSize=16" alt="Charan Yeragera profile header" width="100%" />
 
-Exam-OS provides two ways to use the same method:
-- **Prompt templates** for ChatGPT conversations.
-- **Modular Agent Skills** for compatible skill-based assistant environments.
+<a href="https://www.linkedin.com/in/charanyeragera"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/yerageracharan"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-## Start here
+</div>
 
-1. Open [SKILLS_INDEX.md](SKILLS_INDEX.md) to choose a modular skill, or [PROMPT_INDEX.md](PROMPT_INDEX.md) for copy-ready prompts.
-2. Upload the student's own lecture slides, notes, tutorials, official revision papers and past exams.
-3. For a full ChatGPT workflow, paste [prompts/01-master-exam-tutor.md](prompts/01-master-exam-tutor.md).
-4. Type START and let the assistant inspect the actual course sources before teaching.
+## About
 
-## Prompt library
+```yaml
+name: Charan Yeragera
+role: Computer Science student
+focus:
+  - Building practical AI agents
+  - LLM-powered applications
+  - Evidence-grounded automation
+  - Developer tools and workflows
+currently_learning:
+  - AI engineering
+  - Software design
+  - Reliable agent workflows
+approach: Learn by building, testing, documenting, and improving.
+```
 
-- Course intake and syllabus mapping.
-- Source audit and exact official-question extraction.
-- Plain-language teaching and visual explanations.
-- Batch practice, detailed marking and worked-problem coaching.
-- Error diagnosis and remediation.
-- Honest progress dashboards, mock exams and last-minute cram mode.
-- Session continuation and adapting the workflow for another student.
+I like turning ideas into useful tools. My recent work explores practical AI agents: systems that read information, organise it, explain their reasoning, and make their limits clear.
 
-## Agent Skills
+## Featured projects
 
-The skills directory contains modular SKILL.md workflows for:
-- Course intake, source auditing and concept tutoring.
-- Visual explanations, batch practice and worked problems.
-- Error remediation, progress audits, mock exams and cram mode.
-- Skill creation/evaluation.
-- Karpathy Guidelines for careful repository and code work.
+| Project | What it does |
+|---|---|
+| [Paper Q&A Agent](https://github.com/yerageracharan/paper-qa-agent) | Answers questions about research PDFs using page- and section-level evidence. |
+| [Meeting Action Agent](https://github.com/yerageracharan/meeting-action-agent) | Extracts decisions, action items, owners, deadlines, and blockers from meeting notes. |
+| [Codebase Onboarding Agent](https://github.com/yerageracharan/codebase-onboarding-agent) | Builds an evidence-backed map of an unfamiliar codebase. |
+| [Personal Knowledge Graph Agent](https://github.com/yerageracharan/personal-knowledge-graph-agent) | Connects documents, notes, and research into a searchable knowledge graph. |
+| [Issue Triage Agent](https://github.com/yerageracharan/issue-triage-agent) | Analyses GitHub issues and suggests categories, priority, and missing details. |
+| [Exam OS](https://github.com/yerageracharan/Exam-OS) | A source-grounded exam-preparation toolkit with prompts and modular agent skills. |
 
-Useful entry points:
-- [Browse all skills](SKILLS_INDEX.md)
-- [Agent operating rules](AGENTS.md)
-- [Claude instructions](CLAUDE.md)
-- [Third-party notices](THIRD_PARTY_NOTICES.md)
-- [Karpathy principles adaptation](references/karpathy-principles-adaptation.md)
-- [Skill evaluation cases](evals/evals.json)
+## Tools I have explored
 
-The repository includes the upstream Karpathy Guidelines skill as a separately attributed reference. Exam-OS's educational skills are original adaptations for study workflows, influenced by the four behavioural principles: think before acting, simplicity first, surgical changes and goal-driven verification.
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+</p>
 
-## What makes the workflow different
+## GitHub activity
 
-The system keeps four measures separate:
-- **Taught:** an explanation was provided.
-- **Understood:** the student demonstrated understanding in a check.
-- **Attempted:** the student independently submitted an answer.
-- **Correct:** the submitted answer was checked and correct.
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=yerageracharan&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yerageracharan&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" />
+</div>
 
-Observed worked examples are not counted as independent attempts. Official questions remain verbatim; generated questions are labelled as generated. Course-specific content must be grounded in the student's own sources.
+## Contribution graph
 
-## Compatibility
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yerageracharan/Exam-OS/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yerageracharan/Exam-OS/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated snake following Charan's GitHub contribution graph" src="https://raw.githubusercontent.com/yerageracharan/Exam-OS/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+</div>
 
-Prompt templates can be pasted into ChatGPT. The modular skills use the public Agent Skills-style folder pattern with YAML frontmatter and Markdown instructions. They can be loaded by compatible skill-based environments. ChatGPT does not automatically load arbitrary GitHub skill folders; use the prompt templates or provide the relevant SKILL.md content.
-
-## Adapt it for another student
-
-Start a fresh conversation and a fresh progress tracker. Use only that student's course materials and preferences. See [Working with Another Student](guides/working-with-another-student.md).
-
-## Important
-
-Exam-OS is a prompt and instruction toolkit, not a software agent or a guarantee of exam results. Its usefulness depends on accurate source material, the assistant's capabilities and the student's independent practice.
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:312e81,100:0f172a&height=110&section=footer" alt="Blue and purple footer banner" width="100%" />
+<sub>Learning by building. Improving by shipping.</sub>
+</div>
