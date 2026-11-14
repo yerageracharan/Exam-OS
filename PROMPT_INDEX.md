@@ -2,6 +2,8 @@
 
 All prompts use placeholders in [SQUARE BRACKETS]. Replace them with the student's real course details. Keep the source-grounding and progress-accounting rules intact.
 
+## Copy-ready prompts
+
 | File | Use it when | Output |
 |---|---|---|
 | [00 Course intake](prompts/00-course-intake-and-syllabus-map.md) | Starting a new course | Exam profile, source inventory, syllabus map, diagnostic |
@@ -23,4 +25,8 @@ All prompts use placeholders in [SQUARE BRACKETS]. Replace them with the student
 
 00 → 02 → 01 → 03/04 → 05 → 07 → 08 → 09 → 10
 
-Use 06 for technical or calculation-heavy modules, 11 for visual study assets, and 12–13 when resuming or transferring the workflow.
+Use 06 for technical or calculation-heavy modules, 11 for study visuals, and 12–13 when resuming or transferring the workflow.
+
+## Modular skills
+
+For skill-based assistant environments, use [SKILLS_INDEX.md](SKILLS_INDEX.md). The skills are modular versions of the same workflow and include activation descriptions, steps, output requirements and safeguards.
