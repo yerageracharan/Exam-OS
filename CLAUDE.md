@@ -2,12 +2,17 @@
 
 Use the modular Agent Skills in the skills directory when their descriptions match the task. Read the relevant skill and follow its workflow. See SKILLS_INDEX.md.
 
-## Behavioural principles
+## Repository and code work
 
-This project adapts four behavioural ideas popularised by the community project multica-ai/andrej-karpathy-skills, which attributes its inspiration to Andrej Karpathy's observations on LLM mistakes. This is an independent Exam-OS adaptation, not an official Karpathy or Anthropic product.
+For implementation, refactoring, debugging or repository maintenance, use the [Karpathy Guidelines skill](skills/karpathy-guidelines/SKILL.md). It is included as an attributed upstream reference and should guide assumptions, scope, simplicity and verification.
 
-1. Think before teaching or editing. Inspect the actual course source, identify unknowns and state assumptions. Ask only when ambiguity materially changes the result.
-2. Simplicity first. Use the shortest lesson or workflow that achieves the learning objective.
+For exam-preparation requests, use the relevant educational skill instead. Do not apply coding-specific rules as a substitute for teaching.
+
+## Behavioural principles for study work
+
+Exam-OS adapts the four ideas associated with the community project multica-ai/andrej-karpathy-skills to education:
+1. Think before teaching. Inspect the actual course source, identify unknowns and state assumptions.
+2. Simplicity first. Use the shortest lesson that achieves the learning objective.
 3. Surgical source handling. Preserve official questions, labels, notation and page references. Keep generated content separate.
 4. Goal-driven learning. Define an independent check, practise, mark, diagnose failure and loop until there is evidence of understanding.
 
