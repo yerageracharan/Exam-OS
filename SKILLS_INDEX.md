@@ -6,6 +6,7 @@ Exam-OS includes modular Agent Skills-style workflows. Each skill is a folder wi
 
 | Skill | Trigger | Main result |
 |---|---|---|
+| [Karpathy Guidelines](skills/karpathy-guidelines/SKILL.md) | Coding, reviewing, editing this repository | Think first, keep it simple, make surgical changes, verify goals |
 | [Course intake](skills/course-intake/SKILL.md) | New course or exam | Exam profile, source inventory, syllabus map |
 | [Source-grounded audit](skills/source-grounded-audit/SKILL.md) | PDFs, official questions, coverage checks | Exact source-backed question and topic inventory |
 | [Concept tutor](skills/concept-tutor/SKILL.md) | Teach, explain, or confusing topic | Layered explanation and understanding check |
@@ -21,6 +22,8 @@ Exam-OS includes modular Agent Skills-style workflows. Each skill is a folder wi
 ## Recommended sequence
 
 Course intake → source audit → concept tutor / visual explainer → batch practice / worked problem coach → error remediation → progress audit → mock exam → cram mode.
+
+Use Karpathy Guidelines for repository and code changes, not as a replacement for course-specific teaching skills.
 
 ## Compatibility
 
