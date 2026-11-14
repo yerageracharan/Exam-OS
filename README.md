@@ -1,8 +1,8 @@
 # Exam OS
 
-A reusable, source-grounded exam-preparation toolkit built from the study workflow used across an eight-lecture university module.
+A reusable, source-grounded exam-preparation toolkit built from a practical university study workflow.
 
-Exam-OS now provides two ways to use the same method:
+Exam-OS provides two ways to use the same method:
 - **Prompt templates** for ChatGPT conversations.
 - **Modular Agent Skills** for compatible skill-based assistant environments.
 
@@ -25,15 +25,22 @@ Exam-OS now provides two ways to use the same method:
 
 ## Agent Skills
 
-The skills directory contains modular SKILL.md workflows for course intake, source-grounded auditing, concept teaching, visual explanation, batch practice, worked problems, error remediation, progress auditing, mock exams, cram mode and skill evaluation.
+The skills directory contains modular SKILL.md workflows for:
+- Course intake, source auditing and concept tutoring.
+- Visual explanations, batch practice and worked problems.
+- Error remediation, progress audits, mock exams and cram mode.
+- Skill creation/evaluation.
+- Karpathy Guidelines for careful repository and code work.
 
+Useful entry points:
 - [Browse all skills](SKILLS_INDEX.md)
 - [Agent operating rules](AGENTS.md)
 - [Claude instructions](CLAUDE.md)
-- [Karpathy principles adaptation and attribution](references/karpathy-principles-adaptation.md)
+- [Third-party notices](THIRD_PARTY_NOTICES.md)
+- [Karpathy principles adaptation](references/karpathy-principles-adaptation.md)
 - [Skill evaluation cases](evals/evals.json)
 
-The project adapts four behavioural principles associated with the community project [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): think before acting, simplicity first, surgical changes and goal-driven verification. Exam-OS applies them to learning and source handling. See the attribution note for context.
+The repository includes the upstream Karpathy Guidelines skill as a separately attributed reference. Exam-OS's educational skills are original adaptations for study workflows, influenced by the four behavioural principles: think before acting, simplicity first, surgical changes and goal-driven verification.
 
 ## What makes the workflow different
 
