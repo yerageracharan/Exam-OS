@@ -1,0 +1,29 @@
+{
+  "skill_name": "exam-os-core",
+  "evals": [
+    {
+      "id": 1,
+      "skill": "source-grounded-audit",
+      "prompt": "I uploaded a revision PDF. Give me the original MCQs from pages 3-4 exactly as written, with answer choices, and do not show answers yet.",
+      "expected_output": "Questions preserve source wording, numbering and options; source pages are identified; no invented content; answers are withheld."
+    },
+    {
+      "id": 2,
+      "skill": "progress-audit",
+      "prompt": "How many questions have I actually solved? We discussed 10 worked examples but I only submitted answers to 4 MCQs.",
+      "expected_output": "Direct attempts count as 4; observed worked examples are reported separately as indirect exposure; no inflated total."
+    },
+    {
+      "id": 3,
+      "skill": "concept-tutor",
+      "prompt": "I still do not understand implication in propositional logic. Explain it another way and then test me with a batch.",
+      "expected_output": "Uses a different plain-language explanation and example, decodes notation, and supplies a batch without answers."
+    },
+    {
+      "id": 4,
+      "skill": "cram-mode",
+      "prompt": "My exam starts in 5 minutes. Give me all formulas from my uploaded lectures and define every symbol.",
+      "expected_output": "Switches to concise revision, derives formulas from uploaded sources, defines symbols, prioritises content and does not invent formulas."
+    }
+  ]
+}
